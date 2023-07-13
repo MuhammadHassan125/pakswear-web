@@ -2,6 +2,7 @@ import React from 'react'
 import {PiCoatHangerBold} from 'react-icons/pi'
 import {TbTruckDelivery} from 'react-icons/tb'
 import {FaRupeeSign} from 'react-icons/fa'
+import Image from 'next/image'
 
 const Herosec = () => {
   return (
@@ -23,7 +24,7 @@ const Herosec = () => {
         
         </div>
       </div>
-      <img alt="ecommerce" className="lg:w-1/2 w-full animate-pulse lg:h-auto h-64 object-cover object-center rounde
+      <Image alt="ecommerce" className="lg:w-1/2 w-full animate-pulse lg:h-auto h-64 object-cover object-center rounde
       d" src="https://st4.depositphotos.com/12731704/22577/i/450/depositphotos_225774704-stock-photo-family-shopping-clothes-looking-happy.jpg"/>
     </div>
   </div>
@@ -40,28 +41,28 @@ const Herosec = () => {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/7137s2W7rUL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
+          <Image className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/7137s2W7rUL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
           
         </div>
       </div>
       
       <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
         <div className="bg-gray-100 hover:bg-slate-300 p-6 rounded-lg">
-          <img className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
+          <Image className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
           
         </div>
       </div>
 
       <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
         <div className="bg-gray-100 hover:bg-slate-300 p-6 rounded-lg">
-          <img className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/71BbvBnsVkL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
+          <Image className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/71BbvBnsVkL._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
           
         </div>
       </div>
 
       <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
         <div className="bg-gray-100 hover:bg-slate-300 p-6 rounded-lg">
-          <img className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/71A-czu4m1L._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
+          <Image className="h-[50vh] rounded w-full object-cover object-center mb-6" src="https://m.media-amazon.com/images/I/71A-czu4m1L._AC_UL600_FMwebp_QL65_.jpg" alt="content"/>
           
         </div>
       </div>
@@ -72,7 +73,7 @@ const Herosec = () => {
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 className="sm:text-3xl text-3xl font-bold title-font mb-2 text-gray-900 animate-ping">What you'll get?</h1>
+      <h1 className="sm:text-3xl text-3xl font-bold title-font mb-2 text-gray-900 animate-ping">What you&apos;ll get?</h1>
       <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
     </div>
     <div className="flex flex-wrap -m-4">

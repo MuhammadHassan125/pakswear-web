@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from '../../../components/Navbar';
 import Footer from '../../../components/Footer';
 import handler from '../api/page';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Products = ({ addToCart }) => {
@@ -28,9 +29,9 @@ const Products = ({ addToCart }) => {
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap md:mr-24">
-            <img alt="ecommerce" className="lg:w-[25%] md:mr-36 w-full lg:h-auto h-12 object-cover object-center rounded" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg" />
+            <Image alt="ecommerce" className="lg:w-[25%] md:mr-36 w-full lg:h-auto h-12 object-cover object-center rounded" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg" />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <h2 className="text-sm title-font text-gray-500 tracking-widest">The Kaazi's</h2>
+              <h2 className="text-sm title-font text-gray-500 tracking-widest">The Kaazi&apos;s</h2>
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">The Full Black T SHirt in the Cotton</h1>
               <div className="flex mb-4">
                 <span className="flex items-center">

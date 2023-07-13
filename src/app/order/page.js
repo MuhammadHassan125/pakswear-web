@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Order = () => {
   return (
@@ -9,7 +10,7 @@ const Order = () => {
 
     <Navbar/>
     <div className='container w-[1170px] m-auto text-center'>
-    <div className=' font-extrabold text-3xl mt-12 animate-bounce'>Let's Order Now</div>
+    <div className=' font-extrabold text-3xl mt-12 animate-bounce'>Let&apos;s Order Now</div>
     </div>
 
     <section class="text-gray-600 body-font overflow-hidden">
@@ -44,7 +45,7 @@ const Order = () => {
          
         </div>
       </div>
-      <img alt="ecommerce" class="lg:w-[30%] md:ml-24 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg"/>
+      <Image alt="ecommerce" class="lg:w-[30%] md:ml-24 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://m.media-amazon.com/images/I/61KtrldtmeL._AC_UL600_FMwebp_QL65_.jpg"/>
     </div>
   </div>
 </section>
